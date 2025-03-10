@@ -1,26 +1,39 @@
 # Chess Game
 
-A full-featured chess game built with React, featuring a computer opponent with multiple difficulty levels and time controls.
+🎮 A full-featured chess game built with React, featuring an AI opponent 🤖 with multiple difficulty levels and time controls. Challenge yourself against the computer or play with friends in this dynamic chess experience. ♟️
 
 ## Live Demo
 
 🎮 [Play the game here](https://menawang.github.io/ChessGame)
 
+[![Chess Game Preview](screenshots/game-interface.png)](https://menawang.github.io/ChessGame)
+
 ## Game Preview
 
 ### Player vs Player Mode
-![Player vs Player](screenshots/pvp-mode.png)
 - Classic chess gameplay
 - Professional chess clock
 - Multiple time control options
 - Move validation and legal moves highlighting
 
 ### Player vs Computer Mode
-![Player vs Computer](screenshots/pvc-mode.png)
-- Three AI difficulty levels
-- Adaptive computer opponent
-- Visual move suggestions
-- Time controls with increment support
+- All features from Player vs Player mode
+- Three AI difficulty levels (Easy, Medium, Hard)
+- Intelligent move selection based on difficulty
+- Adjustable computer thinking time
+
+### How to Play
+
+1. Select game mode (vs Friend or vs Computer)
+2. If playing against computer, choose difficulty level
+3. Select time control
+4. Make moves by either:
+   - Clicking pieces and valid squares
+   - Dragging and dropping pieces
+5. Use the control buttons to:
+   - Start a new game
+   - Undo moves
+   - Switch game modes
 
 ## Technology Stack
 - **React** - Frontend framework for building the user interface
@@ -34,10 +47,7 @@ A full-featured chess game built with React, featuring a computer opponent with 
 
 ### Game Modes
 - Player vs Player
-- Player vs Computer with three difficulty levels:
-  - Easy (3 seconds per move)
-  - Medium (2 seconds per move)
-  - Hard (1 second per move)
+- Player vs Computer with three difficulty levels
 
 ### Time Controls
 - 1 min Bullet (60 seconds)
@@ -222,18 +232,6 @@ The engine evaluates positions using:
    npm start
    ```
 
-## How to Play
-
-1. Select game mode (vs Friend or vs Computer)
-2. If playing against computer, choose difficulty level
-3. Select time control
-4. Make moves by either:
-   - Clicking pieces and valid squares
-   - Dragging and dropping pieces
-5. Use the control buttons to:
-   - Start a new game
-   - Undo moves
-   - Switch game modes
 
 ## Contributing
 
