@@ -1,0 +1,195 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+h1 {
+  font-size: 2.5em;
+  line-height: 1.1;
+  margin: 0;
+}
+
+.chess-game {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background: white;
+}
+
+.game-status {
+  text-align: center;
+}
+
+.game-status h2 {
+  margin: 0 0 1rem 0;
+  color: #2c3e50;
+}
+
+.game-controls {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.game-controls button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.game-controls button:hover {
+  background-color: #2980b9;
+}
+
+.game-controls button:disabled {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}
+
+.game-controls button.active {
+  background-color: #27ae60;
+}
+
+.game-controls button.active:hover {
+  background-color: #219a52;
+}
+
+.move-history {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+}
+
+.move-history h3 {
+  margin: 0 0 0.5rem 0;
+  color: #2c3e50;
+}
+
+.moves-list {
+  font-family: monospace;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.moves-list span {
+  margin-right: 0.5rem;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.difficulty-select {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 2px solid #3498db;
+  border-radius: 4px;
+  background-color: white;
+  color: #2c3e50;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.difficulty-select:hover {
+  border-color: #2980b9;
+}
+
+.difficulty-select:focus {
+  outline: none;
+  border-color: #2980b9;
+  box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+}
+
+.timer-display {
+  display: flex;
+  justify-content: center;
+  margin: 0.5rem 0;
+}
+
+.timer {
+  font-family: monospace;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+  min-width: 120px;
+  transition: all 0.3s ease;
+}
+
+.timer.active {
+  background-color: #e3f2fd;
+  box-shadow: 0 0 0 2px #2196f3;
+  font-weight: bold;
+}
+
+.time-control-select {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 2px solid #3498db;
+  border-radius: 4px;
+  background-color: white;
+  color: #2c3e50;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.time-control-select:hover {
+  border-color: #2980b9;
+}
+
+.time-control-select:focus {
+  outline: none;
+  border-color: #2980b9;
+  box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+}
