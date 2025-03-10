@@ -8,34 +8,19 @@ A full-featured chess game built with React, featuring a computer opponent with 
 
 ## Game Preview
 
-### Main Game Interface
-![Game Interface](screenshots/game-interface.png)
-
-### Difficulty Levels in Action
-
-#### Easy Mode
-![Easy Mode](screenshots/easy-mode.png)
-- Basic moves and captures
-- Perfect for beginners
-- High randomization factor
-
-#### Medium Mode
-![Medium Mode](screenshots/medium-mode.png)
-- Positional understanding
-- Tactical awareness
-- Moderate challenge
-
-#### Hard Mode
-![Hard Mode](screenshots/hard-mode.png)
-- Advanced strategies
-- Strong tactical play
-- Challenging gameplay
-
-### Time Controls
-![Time Controls](screenshots/time-controls.png)
+### Player vs Player Mode
+![Player vs Player](screenshots/pvp-mode.png)
+- Classic chess gameplay
+- Professional chess clock
 - Multiple time control options
-- Increment support
-- Professional chess clock interface
+- Move validation and legal moves highlighting
+
+### Player vs Computer Mode
+![Player vs Computer](screenshots/pvc-mode.png)
+- Three AI difficulty levels
+- Adaptive computer opponent
+- Visual move suggestions
+- Time controls with increment support
 
 ## Technology Stack
 - **React** - Frontend framework for building the user interface
