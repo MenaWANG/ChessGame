@@ -2,6 +2,41 @@
 
 A full-featured chess game built with React, featuring a computer opponent with multiple difficulty levels and time controls.
 
+## Live Demo
+
+🎮 [Play the game here](https://menawang.github.io/ChessGame)
+
+## Game Preview
+
+### Main Game Interface
+![Game Interface](screenshots/game-interface.png)
+
+### Difficulty Levels in Action
+
+#### Easy Mode
+![Easy Mode](screenshots/easy-mode.png)
+- Basic moves and captures
+- Perfect for beginners
+- High randomization factor
+
+#### Medium Mode
+![Medium Mode](screenshots/medium-mode.png)
+- Positional understanding
+- Tactical awareness
+- Moderate challenge
+
+#### Hard Mode
+![Hard Mode](screenshots/hard-mode.png)
+- Advanced strategies
+- Strong tactical play
+- Challenging gameplay
+
+### Time Controls
+![Time Controls](screenshots/time-controls.png)
+- Multiple time control options
+- Increment support
+- Professional chess clock interface
+
 ## Technology Stack
 - **React** - Frontend framework for building the user interface
 - **TypeScript** - Static typing for improved code reliability
